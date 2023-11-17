@@ -1,0 +1,15 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE_TAGS := optional
+
+LOCAL_MODULE := Package-Name-Viewer
+
+LOCAL_SRC_FILES := Package-Name-Viewer
+
+LOCAL_MODULE_CLASS := APPS
+
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+
+include $(TARGET_OUT_DATA)
