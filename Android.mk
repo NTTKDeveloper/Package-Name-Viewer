@@ -4,9 +4,9 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE_TAGS := optional
 
-LOCAL_MODULE := package-Name-Viewer
+LOCAL_MODULE := package_name
 
-LOCAL_SRC_FILES := package-Name-Viewer
+LOCAL_SRC_FILES := package_name
 
 LOCAL_MODULE_CLASS := APPS
 
